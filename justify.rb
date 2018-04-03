@@ -1,0 +1,1 @@
+puts "Ruby".rjust(10, "code")
