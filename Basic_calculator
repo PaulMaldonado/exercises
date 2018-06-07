@@ -1,0 +1,20 @@
+puts "Ingresa el primer numero: "
+number_one = gets.chomp.to_i
+
+puts "Ingresa el operador: (+, -, *, /) "
+operator = gets.chomp
+
+puts "Ingresa el segundo numero: "
+number_two = gets.chomp.to_i
+
+if operator == "+"
+  puts number_one + number_two
+elsif operator == "-"
+  puts number_one - number_two
+elsif operator == "*"
+  puts number_one * number_two
+elsif operator == "/"
+  puts number_one / number_two
+else
+  puts "Operador invalido!"
+end
